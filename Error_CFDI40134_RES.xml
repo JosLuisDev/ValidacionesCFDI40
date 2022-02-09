@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40134 - El campo Meses, no contiene alguno de los valores “01”, “02”, “03”, “04”, “05”, “06”, “07”, “08”, “09”, “10”, “11” o “12”.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40134 - El campo Meses, no contiene alguno de los valores “01”, “02”, “03”, “04”, “05”, “06”, “07”, “08”, “09”, “10”, “11” o “12”.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40134 - El campo Meses, no contiene alguno de los valores “01”, “02”, “03”, “04”, “05”, “06”, “07”, “08”, “09”, “10”, “11” o “12”."},{"Key":"messageDetail","Value":" ValorEsperado: “01”, “02”, “03”, “04”, “05”, “06”, “07”, “08”, “09”, “10”, “11”, “12“ ValorReportado: Item13"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

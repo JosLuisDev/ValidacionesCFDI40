@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">Validación</anyType>
+            <anyType xsi:type="xsd:string">301</anyType>
+            <anyType xsi:type="xsd:string">Error al ejecutar validación XSD de cfdi 3.3</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">330304</anyType>
+            <anyType xsi:type="xsd:string">Error al ejecutar validación XSD de cfdi 3.3</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"Mensaje","Value":"El atributo 'TipoFactor' no es válido. El valor 'Tas' no es válido según su tipo de datos 'http:\/\/www.sat.gob.mx\/sitio_internet\/cfd\/catalogos:c_TipoFactor' - Error en la restricción de Enumeration."},{"Key":"ResultadoValidacion","Value":"Pendiente"},{"Key":"Ejecutado","Value":"False"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

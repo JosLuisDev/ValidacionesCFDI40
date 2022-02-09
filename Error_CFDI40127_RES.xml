@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40127 - El campo Confirmacion no debe existir cuando los campos TipoCambio y/o Total están dentro del rango permitido.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40127 - El campo Confirmacion no debe existir cuando los campos TipoCambio y/o Total están dentro del rango permitido.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40127 - El campo Confirmacion no debe existir cuando los campos TipoCambio y\/o Total están dentro del rango permitido."},{"Key":"messageDetail","Value":" LimiteSuperiorMoneda: 6 LimiteInferiorMoneda:0 ValorMaximoComprobante:999999999999999999.999999 Comprobante.TipoCambio:1 Comprobante.Total:1 Porcentaje Variación:500 TipoCambio Actual:500"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40137 - El campo TipoRelacion, no contiene un valor del catálogo c_TipoRelacion.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40137 - El campo TipoRelacion, no contiene un valor del catálogo c_TipoRelacion.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40137 - El campo TipoRelacion, no contiene un valor del catálogo c_TipoRelacion."},{"Key":"messageDetail","Value":"The 'TipoRelacion' attribute is invalid - The value '99' is invalid according to its datatype 'http:\/\/www.sat.gob.mx\/sitio_internet\/cfd\/catalogos:c_TipoRelacion' - The Enumeration constraint failed."}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

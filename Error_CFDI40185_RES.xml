@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40185 - El valor del campo TasaOCuota que corresponde a Retención, no contiene un valor del catálogo c_TasaOcuota o se encuentra fuera de rango.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40185 - El valor del campo TasaOCuota que corresponde a Retención, no contiene un valor del catálogo c_TasaOcuota o se encuentra fuera de rango.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40185 - El valor del campo TasaOCuota que corresponde a Retención, no contiene un valor del catálogo c_TasaOcuota o se encuentra fuera de rango."},{"Key":"messageDetail","Value":"Comprobante.Conceptos.Concepto.Impuestos.Retencion.TasaOCuota: Catalogo c_TasaOCuota. ValoresReportados ( Comprobante.Concepto.Impuestos.Retencion.Impuesto: ISR Comprobante.Conceptos.Concepto.Impuestos.Retencion.Factor: Tasa Comprobante.Conceptos.Concepto.Impuestos.Retencion.TasaOCuota: 0.360000 )"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

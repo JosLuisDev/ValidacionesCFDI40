@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40108 - El TipoDeComprobante es I,E o N, el importe registrado en el campo no es igual al redondeo de la suma de los importes de los conceptos registrados.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40108 - El TipoDeComprobante es I,E o N, el importe registrado en el campo no es igual al redondeo de la suma de los importes de los conceptos registrados.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40108 - El TipoDeComprobante es I,E o N, el importe registrado en el campo no es igual al redondeo de la suma de los importes de los conceptos registrados."},{"Key":"messageDetail","Value":"La suma del valor Importe de los Conceptos no es igual al valor de Comprobante.Subtotal.  ValorEsperado: 200 ValorReportado: 199"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

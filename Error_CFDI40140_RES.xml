@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40140 - El campo RegimenFiscal, no contiene un valor del catálogo c_RegimenFiscal.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40140 - El campo RegimenFiscal, no contiene un valor del catálogo c_RegimenFiscal.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40140 - El campo RegimenFiscal, no contiene un valor del catálogo c_RegimenFiscal."},{"Key":"messageDetail","Value":"The 'RegimenFiscal' attribute is invalid - The value '602' is invalid according to its datatype 'http:\/\/www.sat.gob.mx\/sitio_internet\/cfd\/catalogos:c_RegimenFiscal' - The Enumeration constraint failed."}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

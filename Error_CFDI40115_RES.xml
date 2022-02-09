@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40115 - El campo TipoCambio se debe registrar cuando el campo Moneda tiene un valor distinto de MXN y XXX.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40115 - El campo TipoCambio se debe registrar cuando el campo Moneda tiene un valor distinto de MXN y XXX.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40115 - El campo TipoCambio se debe registrar cuando el campo Moneda tiene un valor distinto de MXN y XXX."},{"Key":"messageDetail","Value":"TipoCambio no especificado y valot de moneda es AMD"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

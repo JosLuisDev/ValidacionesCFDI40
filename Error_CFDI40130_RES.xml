@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40130 - El campo Rfc del nodo receptor debe contener valor “XAXX010101000” y el valor del campo Nombre del nodo Receptor debe contener el valor “PUBLICO EN GENERAL”.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40130 - El campo Rfc del nodo receptor debe contener valor “XAXX010101000” y el valor del campo Nombre del nodo Receptor debe contener el valor “PUBLICO EN GENERAL”.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40130 - El campo Rfc del nodo receptor debe contener valor “XAXX010101000” y el valor del campo Nombre del nodo Receptor debe contener el valor “PUBLICO EN GENERAL”."},{"Key":"messageDetail","Value":"RFC Receptor es XAXX010101000 y Nombre Receptor es PUBLICO EN GENERAL y no hay información en el campo Comprobante.InformacionGlobal"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

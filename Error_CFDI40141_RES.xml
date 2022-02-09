@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40141 - La clave del campo RegimenFiscal debe corresponder con el tipo de persona (fisica o moral).</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40141 - La clave del campo RegimenFiscal debe corresponder con el tipo de persona (fisica o moral).</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40141 - La clave del campo RegimenFiscal debe corresponder con el tipo de persona (fisica o moral)."},{"Key":"messageDetail","Value":" ValorEsperado: 605 | 606 | 607 | 608 | 610 | 611 | 614 | 615 | 616 | 621 | 625 | 626 ValorReportado: Item601"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

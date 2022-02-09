@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40101 - El campo Fecha no cumple con el patrón requerido.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40101 - El campo Fecha no cumple con el patrón requerido.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40101 - El campo Fecha no cumple con el patrón requerido."},{"Key":"messageDetail","Value":"The 'Fecha' attribute is invalid - The value '2002-01-07T11:38:31' is invalid according to its datatype 'http:\/\/www.sat.gob.mx\/sitio_internet\/cfd\/tipoDatos\/tdCFDI:t_FechaH' - The Pattern constraint failed."}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>
