@@ -1,0 +1,17 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <TimbraCFDIResponse xmlns="http://tempuri.org/">
+         <TimbraCFDIResult>
+            <anyType xsi:type="xsd:string">FaultsTimbrado</anyType>
+            <anyType xsi:type="xsd:string">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40216 - El importe del campo Base correspondiente a Traslado no es igual al redondeo de la suma de los importes de las bases trasladados registrados en los conceptos.</anyType>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:nil="true"/>
+            <anyType xsi:type="xsd:string"/>
+            <anyType xsi:type="xsd:int">21001</anyType>
+            <anyType xsi:type="xsd:string">CFDI40216 - El importe del campo Base correspondiente a Traslado no es igual al redondeo de la suma de los importes de las bases trasladados registrados en los conceptos.</anyType>
+            <anyType xsi:type="xsd:string">[{"Key":"message","Value":"CFDI40216 - El importe del campo Base correspondiente a Traslado no es igual al redondeo de la suma de los importes de las bases trasladados registrados en los conceptos."},{"Key":"messageDetail","Value":"Campo Comprobante.Impuestos.Traslados.Traslado.Base 2 es diferente a la suma de los campos Importe en conceptos 1"}]</anyType>
+         </TimbraCFDIResult>
+      </TimbraCFDIResponse>
+   </soap:Body>
+</soap:Envelope>

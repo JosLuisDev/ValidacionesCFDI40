@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="Serie" Folio="Folio" Fecha="2022-02-08T10:38:31" CondicionesDePago="CondicionesDePago" SubTotal="200" Descuento="1" Moneda="AMD" TipoCambio="1" Total="199.16" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" FormaPago="99" LugarExpedicion="20000" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<cfdi:Comprobante xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd" Version="4.0" Serie="Serie" Folio="Folio" Fecha="2022-02-14T09:18:10" CondicionesDePago="CondicionesDePago" SubTotal="200" Descuento="1" Moneda="AMD" TipoCambio="1" Total="199.16" TipoDeComprobante="I" Exportacion="01" MetodoPago="PPD" FormaPago="99" LugarExpedicion="20000" xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfdi:InformacionGlobal Periodicidad="03" Meses="01" Año="2021" />
   <cfdi:Emisor Rfc="IIA040805DZ4" Nombre="INDISTRIA ILUMINADORA DE ALMACENES SA DE CV" RegimenFiscal="601" />
-  <cfdi:Receptor Rfc="XAXX010101000" Nombre="UNIVERSIDAD ROBOTICA ESPAÑOLA SA DE CV" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="616" UsoCFDI="G01" />
+  <cfdi:Receptor Rfc="XEXX010101000" Nombre="Jhon Smith" DomicilioFiscalReceptor="20000" RegimenFiscalReceptor="616" UsoCFDI="S01"  NumRegIdTrib="154896458"/>
   <cfdi:Conceptos>
     <cfdi:Concepto ClaveProdServ="50211503" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="Cigarros" ValorUnitario="200.00" Descuento="1" Importe="200.00" ObjetoImp="02">
       <cfdi:Impuestos>
